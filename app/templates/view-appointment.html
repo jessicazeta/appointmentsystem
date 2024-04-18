@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block content %}
+<div class="card">
+  <div class="card-body">
+    <p>Date: {{ appointment.date }}</p>
+    <p>Time: {{ appointment.time }}</p>
+    <p>Name: {{ appointment.name }}</p>
+    <p>Email: {{ appointment.email }}</p>
+    <a href="{{url_for('confirm_appointment',appointment_id=appointment._id)}}" class="btn btn-primary">Confirm Appointment</a>
+    <a href="{{url_for('confirm_appointment',appointment_id=appointment._id)}}" class="btn btn-primary">Reschedule Appointment</a>
+  </div>
+</div>
+{% endblock %}

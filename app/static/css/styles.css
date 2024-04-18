@@ -1,0 +1,51 @@
+body{
+    background-color: #F8FFD2;
+}
+.table{
+    margin: 10px;
+}
+.form-control{
+    margin: 10px;
+}
+.btn{
+    background-color: #DF826C;
+}
+.welcome{
+    background-color: #8ADAB2;
+}
+/* styles.css */
+form {
+    width: 100%; /* Set form width */
+  }
+  
+  label {
+    display: block; /* Display labels as block elements */
+    margin-top: 3px; /* Add margin below labels */
+  }
+  input[type="date"],
+  input[type="time"],
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 100%; /* Set input fields and submit button to full width */
+    padding: 10px; /* Add padding to input fields and submit button */
+    margin-bottom: 3px; /* Add margin below input fields and submit button */
+    border: 1px solid #ccc; /* Add border to input fields and submit button */
+    border-radius: 5px; /* Add border radius to input fields and submit button */
+  }
+  
+  input[type="submit"] {
+    margin-top: 20px;
+    background-color: #007bff; /* Change background color of submit button */
+    color: #fff; /* Change text color of submit button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #DF826C; /* Change background color of submit button on hover */
+  }
+  .card{
+    width: 100%;
+  }
+  
+  

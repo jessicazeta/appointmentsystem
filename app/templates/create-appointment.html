@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block content %}
+<h1>Create an Appointment</h1>
+<form action="/add" method="post">
+  <label for="Date">Date:</label><br />
+  <input type="date" id="date" name="date" /><br />
+
+  <label for="Time">Time:</label><br />
+  <input type="time" id="time" name="time" /><br />
+
+  <label for="name">Name:</label><br />
+  <input type="text" id="name" name="name" /><br />
+
+  <label for="email">Email:</label><br />
+  <input type="email" id="email" name="email" /><br />
+
+  <label for="reason">Reason for Counseling:</label><br />
+  <input type="text" id="reason" name="reason" /><br />
+
+  <input type="submit" value="Submit" />
+</form>
+{% endblock %}
